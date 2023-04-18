@@ -1,0 +1,104 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "crud_api",
+    "dateExported": "2023-04-18T13:06:55.851Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "bfed6b36-dd85-4558-b231-1db528e6394b",
+            "colId": "8b488f58-3571-41f4-be84-f2ec40358fc6",
+            "containerId": "",
+            "name": "Get All Users",
+            "url": "localhost:4000/users",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-04-18T13:02:14.407Z",
+            "modified": "2023-04-18T13:02:14.407Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\" : \"Mr.\",\n  \"firstName\" : \"Lloydaaa\",\n  \"lastName\" : \"Butanasaaa\",\n  \"email\" : \"lloyd.butanasaaa@gmail.com\",\n  \"role\" : \"Admin\",\n  \"password\" : \"123456\",\n  \"confirmPassword\" : \"123456\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "c90e1da0-7059-454d-a20b-a2f78cca6652",
+            "colId": "8b488f58-3571-41f4-be84-f2ec40358fc6",
+            "containerId": "",
+            "name": "Update users",
+            "url": "localhost:4000/users/2",
+            "method": "PUT",
+            "sortNum": 20000,
+            "created": "2023-04-18T13:03:49.827Z",
+            "modified": "2023-04-18T13:03:49.827Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\" : \"Mr.\",\n  \"firstName\" : \"Lloydqwe\",\n  \"lastName\" : \"Butanasqwe\",\n  \"email\" : \"lloyd.butanasqwe@gmail.com\",\n  \"role\" : \"Admin\",\n  \"password\" : \"123456\",\n  \"confirmPassword\" : \"123456\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "831a2834-0376-4ec5-877b-93b3352c01f1",
+            "colId": "8b488f58-3571-41f4-be84-f2ec40358fc6",
+            "containerId": "",
+            "name": "Get By ID",
+            "url": "localhost:4000/users/1",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2023-04-18T13:04:15.650Z",
+            "modified": "2023-04-18T13:04:15.650Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\" : \"Mr.\",\n  \"firstName\" : \"Lloydqwe\",\n  \"lastName\" : \"Butanasqwe\",\n  \"email\" : \"lloyd.butanasqwe@gmail.com\",\n  \"role\" : \"Admin\",\n  \"password\" : \"123456\",\n  \"confirmPassword\" : \"123456\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "7ed9bd27-3785-4c22-923f-b8e71f77e053",
+            "colId": "8b488f58-3571-41f4-be84-f2ec40358fc6",
+            "containerId": "",
+            "name": "Create user",
+            "url": "localhost:4000/users",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2023-04-18T13:05:15.521Z",
+            "modified": "2023-04-18T13:05:15.521Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\" : \"Mr.\",\n  \"firstName\" : \"Wilson\",\n  \"lastName\" : \"Gayo\",\n  \"email\" : \"wilson.gayo@gmail.com\",\n  \"role\" : \"User\",\n  \"password\" : \"333333\",\n  \"confirmPassword\" : \"333333\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "c78df424-d723-4135-bdf3-9b6af0b315a2",
+            "colId": "8b488f58-3571-41f4-be84-f2ec40358fc6",
+            "containerId": "",
+            "name": "Delete user",
+            "url": "localhost:4000/users/1",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2023-04-18T13:05:40.385Z",
+            "modified": "2023-04-18T13:05:40.385Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\" : \"Mr.\",\n  \"firstName\" : \"Wilson\",\n  \"lastName\" : \"Gayo\",\n  \"email\" : \"wilson.gayo@gmail.com\",\n  \"role\" : \"User\",\n  \"password\" : \"333333\",\n  \"confirmPassword\" : \"333333\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
